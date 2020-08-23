@@ -30,7 +30,9 @@
       </div>
     </nav>
 
-    <router-view/>
+    <div class="container mx-auto mt-6">
+      <router-view/>
+    </div>
   </div>
 </template>
 
