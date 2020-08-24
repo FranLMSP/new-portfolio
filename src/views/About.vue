@@ -23,7 +23,7 @@
           <br>
           &emsp; Learning more and more about how our technology works is what I really like, always trying to
           find the most optimal way to do computing. Optimization is something very miss-valuated in this days, so
-          I enjoy to optimize and make the code more efficient and also readable. That way the software in general
+          I enjoy to optimize and make the code more efficient and also readable. That way, the software in general
           can be more fast, reliable, and accesible to everyone!⚙️
         </p>
       </div>
