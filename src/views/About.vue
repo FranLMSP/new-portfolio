@@ -11,7 +11,9 @@
       <div class="mb-8">
         <h2 class="text-gray-900 font-bold text-5xl mb-2">About me</h2>
         <p class="text-gray-700 text-lg text-base mb-4">
-          &emsp; Hi there! I'm Franco, I'm a technology enthusiast, venezuelan, currently living in Ecuador.
+          &emsp; Hi there! I'm Franco, thank you for visiting my page! 🖤 <br>
+          <br>
+          &emsp; I'm a technology enthusiast, venezuelan, currently living in Ecuador.
           Graduated from <strong>Instituto Universitario de Tecnología Federico Rivero Palacio (IUT-FRP)</strong>
           in Venezuela as a <strong>University Superior Technician</strong> and constantly learning and
           studying online.🎓<br>

@@ -4,6 +4,12 @@
     <div class="w-full border-r lg:pl-10 border-b border-l border-gray-400 lg:border-t lg:border-gray-400 bg-white rounded p-4 flex flex-col justify-between leading-normal">
       <div class="mb-8">
         <h2 class="text-gray-900 font-bold text-5xl mb-2">My knowledge</h2>
+        <p>
+            &emsp; In this page I have a list of the languages, frameworks, libraries or concepts I have some experience with.
+            This could be a bit dated over the time, because of course, if you don't partice something every day you are going to
+            eventualy get rusty, but nothing that cannot be solved with some handwarming 😁
+        </p>
+        <br>
 
         <div class="grid lg:grid-cols-2 grid-cols-1 lg:grid-rows-2 grid-rows-4 gap-4">
             <div class="grid grid-cols-2 grid-rows-1">
