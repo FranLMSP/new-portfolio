@@ -30,7 +30,7 @@
       </div>
     </nav>
 
-    <div class="container mx-auto mt-6">
+    <div class="container mx-auto mt-6 mb-6">
       <router-view/>
     </div>
   </div>
