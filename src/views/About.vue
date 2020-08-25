@@ -13,7 +13,7 @@
         <p class="text-gray-700 text-lg text-base mb-4">
           &emsp; Hi there! I'm Franco, thank you for visiting my page! 🖤 <br>
           <br>
-          &emsp; I'm a technology enthusiast, venezuelan, currently living in Ecuador.
+          &emsp; I'm a technology enthusiast, venezuelan, spanish and english speaker, currently living in Ecuador.
           Graduated from <strong>Instituto Universitario de Tecnología Federico Rivero Palacio (IUT-FRP)</strong>
           in Venezuela as a <strong>University Superior Technician</strong> and constantly learning and
           studying online.🎓<br>
