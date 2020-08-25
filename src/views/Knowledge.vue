@@ -7,9 +7,9 @@
         <p>
             &emsp; In this page I have a list of the languages, frameworks, libraries or concepts I have some experience with.
             This could be a bit dated over the time, because of course, if you don't partice something every day you are going to
-            eventualy get rusty, but nothing that cannot be solved with some handwarming 😁
+            eventualy get rusty, but nothing that can't be solved with some handwarming 😁
         </p>
-        <br>
+        <hr class="m-10">
 
         <div class="grid lg:grid-cols-2 grid-cols-1 lg:grid-rows-2 grid-rows-4 gap-4">
             <div class="grid grid-cols-2 grid-rows-1">
@@ -21,6 +21,33 @@
                 </div>
 
                 <div>
+                    <ul class="list-disc">
+                        <li><b>Linux</b></li>
+                        <li><b>Docker</b></li>
+                        <li><b>Relational databases (SQL)</b></li>
+                        <ul class="list-disc pl-8">
+                            <li>MySQL or Mariadb</li>
+                            <li>PostgreSQL</li>
+                        </ul>
+                        <li><b>Non-relational databases (NoSQL)</b> (very low experience with this one)</li>
+                        <ul class="list-disc pl-8">
+                            <li>MongoDB</li>
+                            <li>Firebase</li>
+                        </ul>
+                        <li><b>PHP</b></li>
+                        <ul class="list-disc pl-8">
+                            <li>Codeigniter</li>
+                            <li>Laravel</li>
+                            <ul class="list-disc pl-8">
+                                <li>Test Driven Development</li>
+                            </ul>
+                        </ul>
+                        <li><b>Node.js</b></li>
+                        <ul class="list-disc pl-8">
+                            <li>Sails.js</li>
+                            <li>Node.js</li>
+                        </ul>
+                    </ul>
                 </div>
             </div>
             <div class="grid grid-cols-2 grid-rows-1">
@@ -32,6 +59,24 @@
                 </div>
 
                 <div>
+                    <ul class="list-disc">
+                        <li><b>HTML</b></li>
+                        <li><b>Javascript</b></li>
+                        <ul class="list-disc pl-8">
+                            <li>EcmaScript6</li>
+                            <li>Vue.js</li>
+                            <li>React.js (+ React Native)</li>
+                            <li>HighCharts</li>
+                            <li>jQuery</li>
+                            <li>Canvas</li>
+                        </ul>
+                        <li><b>CSS</b></li>
+                        <ul class="list-disc pl-8">
+                            <li>Bootstrap</li>
+                            <li>Materialize</li>
+                            <li>Tailwind CSS</li>
+                        </ul>
+                    </ul>
                 </div>
             </div>
             <div class="grid grid-cols-2 grid-rows-1">
@@ -43,6 +88,31 @@
                 </div>
 
                 <div>
+                    <ul class="list-disc">
+                        <li><b>Spanish and English</b> (yes, those are also languages 😜)</li>
+                        <li><b>C++</b></li>
+                        <ul class="list-disc pl-8">
+                            <li>SDL Library</li>
+                        </ul>
+                        <li><b>Bash commands / SSH</b></li>
+                        <ul class="list-disc pl-8">
+                            <li>Linux commands</li>
+                            <li>Apache</li>
+                            <li>Nginx (not much experience with this)</li>
+                            <li>VIM Text Editor</li>
+                        </ul>
+                        <li><b>Python</b></li>
+                        <ul class="list-disc pl-8">
+                            <li>Basic web-scrapping</li>
+                            <li>Very basic Numpy, Pandas and Matplotlib</li>
+                            <li>Jupyter Notebooks</li>
+                            <li>Pygame</li>
+                        </ul>
+                        <li><b>Regular expresions</b></li>
+                        <li><b>Object-oriented programming</b></li>
+                        <li><b>Model-Controller-View</b></li>
+                        <li><b>Pascal and Basic</b></li>
+                    </ul>
                 </div>
             </div>
             <div class="grid grid-cols-2 grid-rows-1">
@@ -54,6 +124,12 @@
                 </div>
 
                 <div>
+                    <ul class="list-disc">
+                        <li><b>Git commands and Git-flow</b></li>
+                        <li><b>Gitlab</b></li>
+                        <li><b>Github</b></li>
+                        <li><b>Bitbucket</b></li>
+                    </ul>
                 </div>
             </div>
         </div>
