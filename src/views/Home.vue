@@ -52,7 +52,7 @@
                 Education:
               </th>
               <td class="p-2 border-t">
-                <b>7 years</b> in total studying at the university, online courses and self-taught 🎓📖
+                <b>7 years</b> of study at the university, online courses and self-taught 🎓📖
               </td>
             </tr>
             <tr>
