@@ -110,6 +110,8 @@
                         </ul>
                         <li><b>Regular expresions</b></li>
                         <li><b>Object-oriented programming</b></li>
+                        <li><b>Recursion</b></li>
+                        <li><b>Pointers</b></li>
                         <li><b>Model-Controller-View</b></li>
                         <li><b>Pascal and Basic</b></li>
                     </ul>
