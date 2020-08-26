@@ -89,7 +89,7 @@
 
                 <div>
                     <ul class="list-disc">
-                        <li><b>Spanish and English</b> (yes, those are also languages 😜)</li>
+                        <li><b>Spanish and English</b></li>
                         <li><b>C++</b></li>
                         <ul class="list-disc pl-8">
                             <li>SDL Library</li>
@@ -117,23 +117,47 @@
                     </ul>
                 </div>
             </div>
-            <div class="grid grid-cols-2 grid-rows-1">
-                <div class="lg:m-0 ml-20 lg:text-center">
-                    <h4 class="text-xl mb-4">Git</h4>
-                    <p>
-                        <svg class="lg:m-auto" style="display: block;" width="50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
-                    </p>
+            <div>
+                <div class="grid grid-cols-2 grid-rows-1 mb-10">
+                    <div class="lg:m-0 ml-20 lg:text-center">
+                        <h4 class="text-xl mb-4">Git</h4>
+                        <p>
+                            <svg class="lg:m-auto" style="display: block;" width="50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+                        </p>
+                    </div>
+
+                    <div>
+                        <ul class="list-disc">
+                            <li><b>Git commands and Git-flow</b></li>
+                            <li><b>Gitlab</b></li>
+                            <li><b>Github</b></li>
+                            <li><b>Bitbucket</b></li>
+                        </ul>
+                    </div>
                 </div>
 
-                <div>
-                    <ul class="list-disc">
-                        <li><b>Git commands and Git-flow</b></li>
-                        <li><b>Gitlab</b></li>
-                        <li><b>Github</b></li>
-                        <li><b>Bitbucket</b></li>
-                    </ul>
+                <div class="grid grid-cols-2 grid-rows-1">
+                    <div class="lg:m-0 ml-8 lg:text-center">
+                        <h4 class="text-xl mb-4">Interested to learn</h4>
+                        <p>
+                            <svg class="ml-12 lg:m-auto" style="display: block;" width="50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path d="M176 80c-52.94 0-96 43.06-96 96 0 8.84 7.16 16 16 16s16-7.16 16-16c0-35.3 28.72-64 64-64 8.84 0 16-7.16 16-16s-7.16-16-16-16zM96.06 459.17c0 3.15.93 6.22 2.68 8.84l24.51 36.84c2.97 4.46 7.97 7.14 13.32 7.14h78.85c5.36 0 10.36-2.68 13.32-7.14l24.51-36.84c1.74-2.62 2.67-5.7 2.68-8.84l.05-43.18H96.02l.04 43.18zM176 0C73.72 0 0 82.97 0 176c0 44.37 16.45 84.85 43.56 115.78 16.64 18.99 42.74 58.8 52.42 92.16v.06h48v-.12c-.01-4.77-.72-9.51-2.15-14.07-5.59-17.81-22.82-64.77-62.17-109.67-20.54-23.43-31.52-53.15-31.61-84.14-.2-73.64 59.67-128 127.95-128 70.58 0 128 57.42 128 128 0 30.97-11.24 60.85-31.65 84.14-39.11 44.61-56.42 91.47-62.1 109.46a47.507 47.507 0 0 0-2.22 14.3v.1h48v-.05c9.68-33.37 35.78-73.18 52.42-92.16C335.55 260.85 352 220.37 352 176 352 78.8 273.2 0 176 0z"/></svg>
+                        </p>
+                    </div>
+
+                    <div>
+                        <ul class="list-disc">
+                            <li><b>Low level programming</b></li>
+                            <li><b>ASM</b></li>
+                            <li><b>Reverse Engineering</b></li>
+                            <li><b>Security research</b></li>
+                            <li><b>Machine Learning</b></li>
+                            <li><b>Computer Science</b></li>
+                            <li><b>Improve my english</b></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
+
         </div>
 
       </div>
