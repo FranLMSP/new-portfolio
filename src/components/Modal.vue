@@ -60,7 +60,7 @@ export default {
     props: ['title'],
     data() {
         return {
-            showModal: true
+            showModal: false
         }
     },
     methods: {
