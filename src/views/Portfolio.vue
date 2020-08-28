@@ -26,6 +26,7 @@
             />
 
             <portfolio-card
+                @click="selectPortfolio('Library Management System', 'library')"
                 title="Library Management System"
                 image="/img/books.jpg"
                 description="
@@ -35,18 +36,21 @@
             />
 
             <portfolio-card
+                @click="selectPortfolio('Dago\'s page', 'dago')"
                 title="Dago's page"
                 image="/img/dago.png"
                 description="A complete rework to the Dago's page (page currently unavailable)."
             />
 
             <portfolio-card
+                @click="selectPortfolio('Mister Kombi App', 'mkapp')"
                 title="Mister Kombi App"
                 image="/img/rn.png"
                 description="Android application made in React Native for the Mister Kombi restaurant"
             />
 
             <portfolio-card
+                @click="selectPortfolio('Mister Kombi Management System', 'mksys')"
                 title="Mister Kombi Management System"
                 image="/img/mrkombi.jpg"
                 description="Management System for the Mister Kombi restaurant"
