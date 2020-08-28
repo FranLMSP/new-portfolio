@@ -17,43 +17,12 @@
         <div class="w-full flex flex-wrap">
 
             <portfolio-card
-                @click="selectPortfolio('Games I\'ve made', 'games')"
-                title="Games I've made"
-                image="/img/pong.png"
-                description="
-                  Here is a list of games (or minigames) I have made using different languages.
-                "
-            />
-
-            <portfolio-card
-                @click="selectPortfolio('Library Management System', 'library')"
-                title="Library Management System"
-                image="/img/books.jpg"
-                description="
-                  A Management System for a Highschool's library me and my team made for the
-                  college project.
-                "
-            />
-
-            <portfolio-card
-                @click="selectPortfolio('Dago\'s page', 'dago')"
-                title="Dago's page"
-                image="/img/dago.png"
-                description="A complete rework to the Dago's page (page currently unavailable)."
-            />
-
-            <portfolio-card
-                @click="selectPortfolio('Mister Kombi App', 'mkapp')"
-                title="Mister Kombi App"
-                image="/img/rn.png"
-                description="Android application made in React Native for the Mister Kombi restaurant"
-            />
-
-            <portfolio-card
-                @click="selectPortfolio('Mister Kombi Management System', 'mksys')"
-                title="Mister Kombi Management System"
-                image="/img/mrkombi.jpg"
-                description="Management System for the Mister Kombi restaurant"
+                v-for="portfolio in portfolioList"
+                @click="selectPortfolio(portfolio.title, portfolio.name)"
+                :title="portfolio.title"
+                :key="portfolio.name"
+                :image="portfolio.image"
+                :description="portfolio.description"
             />
 
         </div>
@@ -84,7 +53,50 @@ export default {
     return {
       showModal: false,
       portfolioName: 'none',
-      modalTitle: "Test title"
+      modalTitle: "Test title",
+      portfolioList: [
+        {
+          title: "Games I've made",
+          name: "games",
+          description: `
+            Here is a list of games (or minigames) I have made using different languages.
+          `,
+          image: '/img/pong.png'
+        },
+        {
+          title: "Library Management System",
+          name: "lms",
+          description: `
+            A Management System for a Highschool's library me and my team made for the
+            college project.
+          `,
+          image: '/img/books.jpg'
+        },
+        {
+          title: "Dago's page",
+          name: "dago",
+          description: `
+            A complete rework to the Dago's page (page currently unavailable).
+          `,
+          image: '/img/dago.png'
+        },
+        {
+          title: "Mister Kombi App",
+          name: "mkapp",
+          description: `
+            Android application made in React Native for the Mister Kombi restaurant
+          `,
+          image: '/img/rn.png'
+        },
+        {
+          title: "Mister Kombi Management System",
+          name: "mksys",
+          description: `
+            Management System for the Mister Kombi restaurant
+          `,
+          image: '/img/mrkombi.jpg'
+        },
+      ]
     }
   },
   methods: {
