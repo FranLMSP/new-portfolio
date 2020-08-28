@@ -17,6 +17,7 @@
         <div class="w-full flex flex-wrap">
 
             <portfolio-card
+                @click="selectPortfolio('Games I\'ve made', 'games')"
                 title="Games I've made"
                 image="/img/pong.png"
                 description="
@@ -53,7 +54,11 @@
 
         </div>
 
-        <modal :title="modalTitle" v-model:showModal="showModal" @modal-toggle="val => showModal = val">
+        <modal
+            :title="modalTitle"
+            :showModal="showModal"
+            @modal-toggle="val => showModal = val"
+        >
             <test></test>
         </modal>
 
@@ -70,7 +75,7 @@ import Test from '../components/portfolio/Test'
 import PortfolioCard from '../components/PortfolioCard'
 
 export default {
-  name: 'Experience',
+  name: 'Portfolio',
   data() {
     return {
       showModal: false,
@@ -80,8 +85,10 @@ export default {
   },
   methods: {
     selectPortfolio(title, name) {
+      console.log('test')
       this.modalTitle = title
       this.portfolioName = name
+      this.showModal = true
     }
   },
   components: {

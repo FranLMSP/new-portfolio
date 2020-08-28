@@ -1,6 +1,10 @@
 <template>
 
-    <div class="w-full md:w-5/12 lg:w-64 m-4 rounded overflow-hidden bg-white shadow-lg">
+    <div
+        style="cursor: pointer"
+        :title="title"
+        class="w-full md:w-5/12 lg:w-64 m-4 rounded overflow-hidden bg-white shadow-lg"
+    >
       <img class="w-full" :src="image" alt="Books">
       <div class="px-6 py-4">
         <div class="font-bold text-xl mb-2">{{ title }}</div>
