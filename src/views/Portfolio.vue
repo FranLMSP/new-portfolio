@@ -32,7 +32,7 @@
             :showModal="showModal"
             @modal-toggle="val => showModal = val"
         >
-            <test></test>
+            <game v-if="portfolioName === 'games'" />
         </modal>
 
       </div>
@@ -44,7 +44,7 @@
 <script>
 
 import Modal from '../components/Modal'
-import Test from '../components/portfolio/Test'
+import Game from '../components/portfolio/Game'
 import PortfolioCard from '../components/PortfolioCard'
 
 export default {
@@ -109,7 +109,7 @@ export default {
   },
   components: {
     Modal,
-    Test,
+    Game,
     PortfolioCard,
   }
 }
