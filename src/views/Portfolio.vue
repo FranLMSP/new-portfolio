@@ -33,6 +33,7 @@
             @modal-toggle="val => showModal = val"
         >
             <game v-if="portfolioName === 'games'" />
+            <lms v-else-if="portfolioName === 'lms'" />
         </modal>
 
       </div>
@@ -45,6 +46,8 @@
 
 import Modal from '../components/Modal'
 import Game from '../components/portfolio/Game'
+import Lms from '../components/portfolio/Lms'
+
 import PortfolioCard from '../components/PortfolioCard'
 
 export default {
@@ -110,6 +113,7 @@ export default {
   components: {
     Modal,
     Game,
+    Lms,
     PortfolioCard,
   }
 }
