@@ -52,6 +52,101 @@
 
         </div>
 
+        <hr class="m-4">
+
+        <div class="flex flex-wrap mb-6">
+
+            <div class="w-full md:w-2/3">
+                <h3 class="font-bold text-2xl">Tetris in C++</h3>
+                <p class="pl-4 mb-4">
+                    Basic Tetris made with C++.
+                </p>
+
+                <p>Tools used:</p>
+                <ul class="list-disc pl-8">
+                    <li><strong>C++</strong></li>
+                    <li><strong>Object-oriented programming</strong></li>
+                    <li><strong>SDL Library</strong></li>
+                </ul>
+            </div>
+
+            <div class="w-full md:w-1/3">
+                <img class="m-auto h-48" src="/img/portfolio/games/tetris.png" />
+            </div>
+
+        </div>
+
+        <hr class="m-4">
+
+        <div class="flex flex-wrap">
+
+            <div class="w-full md:w-1/3">
+                <img class="m-auto h-48" src="/img/portfolio/games/jailsdream.png" />
+            </div>
+
+            <div class="w-full md:w-2/3">
+                <h3 class="font-bold text-2xl">Jail's Dream</h3>
+                <p class="pl-4 mb-4">
+                    A Platformer prototype in a level with blocks to test the physics of the game.<br>
+                </p>
+                <p>Tools used:</p>
+                <ul class="list-disc pl-8">
+                    <li><strong>C++</strong></li>
+                    <li><strong>Object-oriented programming</strong></li>
+                    <li><strong>SDL Library</strong></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <hr class="m-4">
+
+        <div class="flex flex-wrap mb-6">
+
+            <div class="w-full md:w-2/3">
+                <h3 class="font-bold text-2xl">Cat</h3>
+                <p class="pl-4 mb-4">
+                    A Game prototype similar to the space games where you have to shoot to everyone.<br>
+                    In this game you are a cat and you have to shoot hairballs to different enemies.
+                    Isn't that amazing?
+                </p>
+
+                <p>Tools used:</p>
+                <ul class="list-disc pl-8">
+                    <li><strong>C++</strong></li>
+                    <li><strong>Object-oriented programming</strong></li>
+                    <li><strong>SDL Library</strong></li>
+                </ul>
+            </div>
+
+            <div class="w-full md:w-1/3">
+                <img class="m-auto h-48" src="/img/portfolio/games/cat.png" />
+            </div>
+
+        </div>
+
+        <hr class="m-4">
+
+        <div class="flex flex-wrap">
+
+            <div class="w-full md:w-1/3">
+                <img class="m-auto h-48" src="/img/portfolio/games/collage.png" />
+            </div>
+
+            <div class="w-full md:w-2/3">
+                <h3 class="font-bold text-2xl">Games for the college</h3>
+                <p class="pl-4 mb-4">
+                    At the college, as evaluation, we had to do different games to develop
+                    our programming logic, like pointers, loops, recursivity, etc.
+                    The games we developed were Snake, 4-in-line, tic-tac-toe and others.
+                </p>
+                <p>Tools used:</p>
+                <ul class="list-disc pl-8">
+                    <li><strong>Pascal</strong></li>
+                </ul>
+            </div>
+
+        </div>
     </div>
 
 </template>
