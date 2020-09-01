@@ -36,6 +36,7 @@
             <lms v-else-if="portfolioName === 'lms'" />
             <dago v-else-if="portfolioName === 'dago'" />
             <mkapp v-else-if="portfolioName === 'mkapp'" />
+            <mksys v-else-if="portfolioName === 'mksys'" />
         </modal>
 
       </div>
@@ -51,6 +52,7 @@ import Game from '../components/portfolio/Game'
 import Lms from '../components/portfolio/Lms'
 import Dago from '../components/portfolio/Dago'
 import Mkapp from '../components/portfolio/Mkapp'
+import Mksys from '../components/portfolio/Mksys'
 
 import PortfolioCard from '../components/PortfolioCard'
 
@@ -120,6 +122,7 @@ export default {
     Lms,
     Dago,
     Mkapp,
+    Mksys,
     PortfolioCard,
   }
 }
