@@ -11,7 +11,7 @@
         </button>
       </div>
       <div @click="toggleLinks(false)" class="header-links w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-        <div class="text-sm lg:flex-grow " :class="{ hide: !showLinks }">
+        <div class="text-sm lg:text-right lg:flex-grow " :class="{ hide: !showLinks }">
           <router-link to="/about" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
             About
           </router-link>
@@ -65,9 +65,6 @@ export default {
 }
 
 @media (min-width: 1024px) {
-    .header-links a {
-        float: right;
-    }
     .hide {
         display: inline;
     }
