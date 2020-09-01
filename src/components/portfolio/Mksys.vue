@@ -33,6 +33,8 @@
                     <ul class="list-disc pl-8">
                         <li>jQuery</li>
                         <li>Highcharts</li>
+                        <li>Bootstrap</li>
+                        <li>Data Tables</li>
                         <li>AdminLTE</li>
                         <li>SweetAlert</li>
                         <li>Select2</li>

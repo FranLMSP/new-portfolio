@@ -37,6 +37,7 @@
             <dago v-else-if="portfolioName === 'dago'" />
             <mkapp v-else-if="portfolioName === 'mkapp'" />
             <mksys v-else-if="portfolioName === 'mksys'" />
+            <esteno v-else-if="portfolioName === 'esteno'" />
         </modal>
 
       </div>
@@ -53,6 +54,7 @@ import Lms from '../components/portfolio/Lms'
 import Dago from '../components/portfolio/Dago'
 import Mkapp from '../components/portfolio/Mkapp'
 import Mksys from '../components/portfolio/Mksys'
+import Esteno from '../components/portfolio/Esteno'
 
 import PortfolioCard from '../components/PortfolioCard'
 
@@ -105,6 +107,14 @@ export default {
           `,
           image: '/img/mrkombi.jpg'
         },
+        {
+          title: "Esteno Reports",
+          name: "esteno",
+          description: `
+            Management System for the Esteno company
+          `,
+          image: '/img/portfolio/esteno.jpg'
+        },
       ]
     }
   },
@@ -123,6 +133,7 @@ export default {
     Dago,
     Mkapp,
     Mksys,
+    Esteno,
     PortfolioCard,
   }
 }
