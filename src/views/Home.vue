@@ -86,7 +86,6 @@ export default {
 @media (max-width: 1023px) {
     .my-picture {
         height: 25rem !important;
-        background-position-y: -30px !important;
     }
 }
 
