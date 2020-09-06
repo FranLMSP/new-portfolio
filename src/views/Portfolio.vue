@@ -27,17 +27,25 @@
 
         </div>
 
+        <fullscreen-image
+            :src="imageSrc"
+            :caption="imageCaption"
+            :showing="showingImage"
+            @toggle="val => showingImage = val"
+
+        />
+
         <modal
             :title="modalTitle"
             :showModal="showModal"
             @modal-toggle="val => showModal = val"
         >
-            <game v-if="portfolioName === 'games'" />
-            <lms v-else-if="portfolioName === 'lms'" />
-            <dago v-else-if="portfolioName === 'dago'" />
-            <mkapp v-else-if="portfolioName === 'mkapp'" />
-            <mksys v-else-if="portfolioName === 'mksys'" />
-            <esteno v-else-if="portfolioName === 'esteno'" />
+            <game :openImage="openImage" v-if="portfolioName === 'games'" />
+            <lms :openImage="openImage" v-else-if="portfolioName === 'lms'" />
+            <dago :openImage="openImage" v-else-if="portfolioName === 'dago'" />
+            <mkapp :openImage="openImage" v-else-if="portfolioName === 'mkapp'" />
+            <mksys :openImage="openImage" v-else-if="portfolioName === 'mksys'" />
+            <esteno :openImage="openImage" v-else-if="portfolioName === 'esteno'" />
         </modal>
 
       </div>
@@ -57,11 +65,15 @@ import Mksys from '../components/portfolio/Mksys'
 import Esteno from '../components/portfolio/Esteno'
 
 import PortfolioCard from '../components/PortfolioCard'
+import FullscreenImage from '../components/FullscreenImage'
 
 export default {
   name: 'Portfolio',
   data() {
     return {
+      imageSrc: '',
+      imageCaption: '',
+      showingImage: false,
       showModal: false,
       portfolioName: 'none',
       modalTitle: "Test title",
@@ -124,6 +136,12 @@ export default {
       this.modalTitle = title
       this.portfolioName = name
       this.showModal = true
+    },
+    openImage(src, caption) {
+      console.log('Open image')
+      this.imageSrc = src
+      this.imageCaption = caption
+      this.showingImage = true
     }
   },
   components: {
@@ -135,6 +153,7 @@ export default {
     Mksys,
     Esteno,
     PortfolioCard,
+    FullscreenImage
   }
 }
 

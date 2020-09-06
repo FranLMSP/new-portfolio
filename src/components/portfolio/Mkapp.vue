@@ -29,16 +29,40 @@
             </div>
 
             <div class="w-full md:w-1/3">
-                <img class="m-auto mb-4" src="/img/portfolio/mkapp/finish_selling.png" />
+                <img
+                    @click="openImage('/img/portfolio/mkapp/finish_selling.png', '')"
+                    class="cursor-pointer m-auto mb-4"
+                    src="/img/portfolio/mkapp/finish_selling.png"
+                />
             </div>
 
         </div>
         <div class="flex flex-wrap">
-            <img class="md:w-1/5 w-full p-2" src="/img/portfolio/mkapp/details.png" />
-            <img class="md:w-1/5 w-full p-2" src="/img/portfolio/mkapp/journeys.png" />
-            <img class="md:w-1/5 w-full p-2" src="/img/portfolio/mkapp/settings.png" />
-            <img class="md:w-1/5 w-full p-2" src="/img/portfolio/mkapp/login.png" />
-            <img class="md:w-1/5 w-full p-2" src="/img/portfolio/mkapp/products.png" />
+            <img
+                @click="openImage('/img/portfolio/mkapp/details.png', '')"
+                class="cursor-pointer md:w-1/5 w-full p-2"
+                src="/img/portfolio/mkapp/details.png"
+            />
+            <img
+                @click="openImage('/img/portfolio/mkapp/journeys.png', '')"
+                class="cursor-pointer md:w-1/5 w-full p-2"
+                src="/img/portfolio/mkapp/journeys.png"
+            />
+            <img
+                @click="openImage('/img/portfolio/mkapp/settings.png', '')"
+                class="cursor-pointer md:w-1/5 w-full p-2"
+                src="/img/portfolio/mkapp/settings.png"
+            />
+            <img
+                @click="openImage('/img/portfolio/mkapp/login.png', '')"
+                class="cursor-pointer md:w-1/5 w-full p-2"
+                src="/img/portfolio/mkapp/login.png"
+            />
+            <img
+                @click="openImage('/img/portfolio/mkapp/products.png', '')"
+                class="cursor-pointer md:w-1/5 w-full p-2"
+                src="/img/portfolio/mkapp/products.png"
+            />
         </div>
 
     </div>
@@ -49,7 +73,8 @@
 <script>
 
 export default {
-    name: 'Lms'
+    name: 'Mkapp',
+    props: ['openImage']
 }
 
 </script>

@@ -1,6 +1,13 @@
 <template>
 
     <div class="w-full">
+        <fullscreen-image
+            :src="imageSrc"
+            :caption="imageCaption"
+            :showing="showingImage"
+            @toggle="val => showingImage = val"
+
+        />
         <p>Here is a list of game prototypes or minigames I've made for different porpuses.</p>
 
         <hr class="m-4">
@@ -22,7 +29,11 @@
             </div>
 
             <div class="w-full md:w-1/3">
-                <img class="m-auto h-48" src="/img/portfolio/games/2048.png" />
+                <img
+                    @click="openImage('/img/portfolio/games/2048.png', '2048 game made in Javascript')"
+                    class="cursor-pointer m-auto h-48"
+                    src="/img/portfolio/games/2048.png"
+                />
             </div>
 
         </div>
@@ -32,7 +43,11 @@
         <div class="flex flex-wrap">
 
             <div class="w-full md:w-1/3">
-                <img class="m-auto h-48" src="/img/pong.png" />
+                <img
+                    @click="openImage('/img/pong.png', '2 player pong game made in Javascript')"
+                    class="cursor-pointer m-auto h-48"
+                    src="/img/pong.png"
+                />
             </div>
 
             <div class="w-full md:w-2/3">
@@ -71,7 +86,11 @@
             </div>
 
             <div class="w-full md:w-1/3">
-                <img class="m-auto h-48" src="/img/portfolio/games/tetris.png" />
+                <img
+                    @click="openImage('/img/portfolio/games/tetris.png', 'Tetris game made in C++')"
+                    class="cursor-pointer m-auto h-48"
+                    src="/img/portfolio/games/tetris.png"
+                />
             </div>
 
         </div>
@@ -81,7 +100,11 @@
         <div class="flex flex-wrap">
 
             <div class="w-full md:w-1/3">
-                <img class="m-auto h-48" src="/img/portfolio/games/jailsdream.png" />
+                <img
+                    @click="openImage('/img/portfolio/games/jailsdream.png', 'Platformer game prototype made in C++')"
+                    class="cursor-pointer m-auto h-48"
+                    src="/img/portfolio/games/jailsdream.png"
+                />
             </div>
 
             <div class="w-full md:w-2/3">
@@ -120,7 +143,11 @@
             </div>
 
             <div class="w-full md:w-1/3">
-                <img class="m-auto h-48" src="/img/portfolio/games/cat.png" />
+                <img
+                    @click="openImage('/img/portfolio/games/cat.png', 'Space shooter game prototype made in C++')"
+                    class="cursor-pointer m-auto h-48"
+                    src="/img/portfolio/games/cat.png"
+                />
             </div>
 
         </div>
@@ -130,7 +157,11 @@
         <div class="flex flex-wrap">
 
             <div class="w-full md:w-1/3">
-                <img class="m-auto h-48" src="/img/portfolio/games/collage.png" />
+                <img
+                    @click="openImage('/img/portfolio/games/collage.png', 'Simple games made as a college test')"
+                    class="cursor-pointer m-auto h-48"
+                    src="/img/portfolio/games/collage.png"
+                />
             </div>
 
             <div class="w-full md:w-2/3">
@@ -153,9 +184,28 @@
 
 
 <script>
+import FullscreenImage from '../FullscreenImage'
 
 export default {
-    name: 'Game'
+    name: 'Game',
+    data() {
+        return {
+            imageSrc: '',
+            imageCaption: '',
+            showingImage: false
+        }
+    },
+    methods: {
+        openImage(src, caption) {
+            console.log('Open image')
+            this.imageSrc = src
+            this.imageCaption = caption
+            this.showingImage = true
+        }
+    },
+    components: {
+        FullscreenImage
+    }
 }
 
 </script>

@@ -33,14 +33,30 @@
             </div>
 
             <div class="w-full md:w-1/2">
-                <img class="m-auto mb-4" src="/img/portfolio/esteno/1.png" />
+                <img
+                    @click="openImage('/img/portfolio/esteno/1.png', '')"
+                    class="cursor-pointer m-auto mb-4"
+                    src="/img/portfolio/esteno/1.png"
+                />
             </div>
 
         </div>
         <div class="flex flex-wrap">
-            <img class="md:w-1/3 h-auto w-full p-2" src="/img/portfolio/esteno/2.png" />
-            <img class="md:w-1/3 h-auto w-full p-2" src="/img/portfolio/esteno/3.png" />
-            <img class="md:w-1/3 h-auto w-full p-2" src="/img/portfolio/esteno/4.png" />
+            <img
+                @click="openImage('/img/portfolio/esteno/2.png', '')"
+                class="cursor-pointer md:w-1/3 h-auto w-full p-2"
+                src="/img/portfolio/esteno/2.png"
+            />
+            <img
+                @click="openImage('/img/portfolio/esteno/3.png', '')"
+                class="cursor-pointer md:w-1/3 h-auto w-full p-2"
+                src="/img/portfolio/esteno/3.png"
+            />
+            <img
+                @click="openImage('/img/portfolio/esteno/4.png', '')"
+                class="cursor-pointer md:w-1/3 h-auto w-full p-2"
+                src="/img/portfolio/esteno/4.png"
+            />
         </div>
 
     </div>
@@ -51,7 +67,8 @@
 <script>
 
 export default {
-    name: 'Lms'
+    name: 'Esteno',
+    props: ['openImage']
 }
 
 </script>

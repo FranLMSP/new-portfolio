@@ -30,19 +30,55 @@
             </div>
 
             <div class="w-full md:w-1/3">
-                <img class="w-full mb-4" src="/img/portfolio/lms/1.png" />
+                <img
+                    @click="openImage('/img/portfolio/lms/1.png', '')"
+                    class="cursor-pointer w-full mb-4"
+                    src="/img/portfolio/lms/1.png"
+                />
             </div>
 
         </div>
         <div class="flex flex-wrap">
-            <img class="md:w-1/3 w-full p-2" src="/img/portfolio/dago/2.png" />
-            <img class="md:w-1/3 w-full p-2" src="/img/portfolio/dago/3.png" />
-            <img class="md:w-1/3 w-full p-2" src="/img/portfolio/dago/4.png" />
-            <img class="md:w-1/3 w-full p-2" src="/img/portfolio/dago/5.png" />
-            <img class="md:w-1/3 w-full p-2" src="/img/portfolio/dago/6.png" />
-            <img class="md:w-1/3 w-full p-2" src="/img/portfolio/dago/7.png" />
-            <img class="md:w-1/3 w-full p-2" src="/img/portfolio/dago/8.png" />
-            <img class="md:w-1/3 w-full p-2" src="/img/portfolio/dago/9.png" />
+            <img
+                @click="openImage('/img/portfolio/dago/2.png', '')"
+                class="cursor-pointer md:w-1/3 w-full p-2"
+                src="/img/portfolio/dago/2.png"
+            />
+            <img
+                @click="openImage('/img/portfolio/dago/3.png', '')"
+                class="cursor-pointer md:w-1/3 w-full p-2"
+                src="/img/portfolio/dago/3.png"
+            />
+            <img
+                @click="openImage('/img/portfolio/dago/4.png', '')"
+                class="cursor-pointer md:w-1/3 w-full p-2"
+                src="/img/portfolio/dago/4.png"
+            />
+            <img
+                @click="openImage('/img/portfolio/dago/5.png', '')"
+                class="cursor-pointer md:w-1/3 w-full p-2"
+                src="/img/portfolio/dago/5.png"
+            />
+            <img
+                @click="openImage('/img/portfolio/dago/6.png', '')"
+                class="cursor-pointer md:w-1/3 w-full p-2"
+                src="/img/portfolio/dago/6.png"
+            />
+            <img
+                @click="openImage('/img/portfolio/dago/7.png', '')"
+                class="cursor-pointer md:w-1/3 w-full p-2"
+                src="/img/portfolio/dago/7.png"
+            />
+            <img
+                @click="openImage('/img/portfolio/dago/8.png', '')"
+                class="cursor-pointer md:w-1/3 w-full p-2"
+                src="/img/portfolio/dago/8.png"
+            />
+            <img
+                @click="openImage('/img/portfolio/dago/9.png', '')"
+                class="cursor-pointer md:w-1/3 w-full p-2"
+                src="/img/portfolio/dago/9.png"
+            />
         </div>
 
     </div>
@@ -53,7 +89,8 @@
 <script>
 
 export default {
-    name: 'Lms'
+    name: 'Dago',
+    props: ['openImage']
 }
 
 </script>
