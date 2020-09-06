@@ -2,7 +2,7 @@
 
   <div class="max-w-sm w-full max-w-full lg:flex">
     <div
-      class="h-48 lg:h-auto lg:w-64 md:h-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
+      class="my-picture h-48 lg:h-auto lg:w-64 md:h-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
       style="background-image: url('/img/me.png'); background-position: center"
       title="My photo"
     >
@@ -82,6 +82,13 @@ export default {
 </script>
 
 <style>
+
+@media (max-width: 1023px) {
+    .my-picture {
+        height: 25rem !important;
+        background-position-y: -30px !important;
+    }
+}
 
 table.table-collapse td, table.table-collapse th {
     padding-top: 1rem;
