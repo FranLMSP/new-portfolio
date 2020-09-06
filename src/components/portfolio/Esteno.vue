@@ -52,11 +52,6 @@
                 class="cursor-pointer md:w-1/3 h-auto w-full p-2"
                 src="/img/portfolio/esteno/3.png"
             />
-            <img
-                @click="openImage('/img/portfolio/esteno/4.png', '')"
-                class="cursor-pointer md:w-1/3 h-auto w-full p-2"
-                src="/img/portfolio/esteno/4.png"
-            />
         </div>
 
     </div>

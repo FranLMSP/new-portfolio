@@ -31,9 +31,9 @@
 
             <div class="w-full md:w-1/3">
                 <img
-                    @click="openImage('/img/portfolio/lms/1.png', '')"
+                    @click="openImage('/img/portfolio/dago/1.png', '')"
                     class="cursor-pointer w-full mb-4"
-                    src="/img/portfolio/lms/1.png"
+                    src="/img/portfolio/dago/1.png"
                 />
             </div>
 
