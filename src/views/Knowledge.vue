@@ -118,7 +118,7 @@
                 </div>
             </div>
             <div>
-                <div class="grid grid-cols-2 grid-rows-1 mb-10">
+                <div class="grid grid-cols-2 grid-rows-1 mb-32">
                     <div class="lg:m-0 ml-20 lg:text-center">
                         <h4 class="text-xl mb-4">Git</h4>
                         <p>

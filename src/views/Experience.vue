@@ -21,14 +21,16 @@
                   <li class="mb-4">
                     Five months working on-site at <strong>Importadora Dago C.A.</strong> at
                     <i>San Antonio de Los Altos, Miranda, Venezuela</i> as
-                    <strong>Backend and Frontend developer</strong>, developing
+                    <strong>Backend and Frontend developer (The company's backend PHP framework,
+                    Laravel, Javascript & jQuery, Bootstrap, PostgreSQL)</strong>, developing
                     <strong>management systems</strong> and weight systems machines for
                     other companies.
                   </li>
 
                   <li class="mb-4">
                     Two years <strong>working remotely</strong> at <strong>Aleli</strong>,
-                    <i>Paraguay</i>, as <strong>Backend and Frontend developer</strong>,
+                    <i>Paraguay</i>, as <strong>Backend and Frontend developer
+                    (PHP, Laravel, Codeigniter, Javascript & jQuery, Vue, React Native)</strong>,
                     also developing <strong>management systems</strong> for inventory, clients,
                     employees, incomings and outcomings, products, etc.
                   </li>

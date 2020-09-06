@@ -10,7 +10,7 @@
     <div class="w-full border-r lg:pl-10 border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
       <div class="mb-8">
         <h2 class="text-gray-900 font-bold text-5xl mb-2">Franco Colmenarez</h2>
-        <p class="text-gray-700 text-lg text-base mb-4">Backend and Frontend developer as a job, programmer as a hobbie</p>
+        <p class="text-gray-700 text-lg text-base mb-4">Software Developer as a job, programmer as a hobbie</p>
         <table
           class="w-full mt-5 text-left text-md table-collapse"
         >
