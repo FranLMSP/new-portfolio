@@ -36,6 +36,9 @@ export default {
         this.$el.parentNode.removeChild(this.$el)
         document.querySelector('body').prepend(this.$el)
 
+    },
+    unmounted() {
+        document.querySelector('body .modal-image').remove()
     }
 }
 
