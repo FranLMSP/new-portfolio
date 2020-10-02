@@ -18,13 +18,26 @@
                 <h3 class="font-bold text-2xl">2048 Game in Javascript</h3>
                 <p class="pl-4 mb-4">
                     A 2048 game game made with Javascript.<br>
-                    You can <a style="color: #039be5" target="_blank" href="https://franlmsp.github.io/20480-game/">play 2048</a> here!
+                    You can <a style="color: #039be5" target="_blank" href="https://franlmsp.github.io/2048-game/">play 2048</a> here!
                 </p>
 
                 <p>Tools used:</p>
                 <ul class="list-disc pl-8">
                     <li><strong>Javascript</strong> and <strong>HTML Canvas</strong></li>
                     <li><strong>Object-oriented programming</strong></li>
+                </ul>
+                <p>Source code:</p>
+                <ul class="list-disc pl-8">
+                    <li>
+                        <strong>2048: </strong>
+                        <a
+                            style="color: #039be5"
+                            target="_blank"
+                            href="https://github.com/FranLMSP/2048-game"
+                        >
+                            https://github.com/FranLMSP/2048-game
+                        </a>
+                    </li>
                 </ul>
             </div>
 
@@ -63,6 +76,29 @@
                     <li><strong>Javascript</strong> and <strong>HTML Canvas</strong></li>
                     <li><strong>Object-oriented programming</strong></li>
                 </ul>
+                <p>Source code:</p>
+                <ul class="list-disc pl-8">
+                    <li>
+                        <strong>Pong: </strong>
+                        <a
+                            style="color: #039be5"
+                            target="_blank"
+                            href="https://github.com/FranLMSP/PongScript"
+                        >
+                            https://github.com/FranLMSP/PongScript
+                        </a>
+                    </li>
+                    <li>
+                        <strong>Snake: </strong>
+                        <a
+                            style="color: #039be5"
+                            target="_blank"
+                            href="https://github.com/FranLMSP/SnakeScript"
+                        >
+                            https://github.com/FranLMSP/SnakeScript
+                        </a>
+                    </li>
+                </ul>
             </div>
 
         </div>
@@ -82,6 +118,19 @@
                     <li><strong>C++</strong></li>
                     <li><strong>Object-oriented programming</strong></li>
                     <li><strong>SDL Library</strong></li>
+                </ul>
+                <p>Source code:</p>
+                <ul class="list-disc pl-8">
+                    <li>
+                        <strong>Tetris: </strong>
+                        <a
+                            style="color: #039be5"
+                            target="_blank"
+                            href="https://github.com/FranLMSP/tetris-sdl"
+                        >
+                            https://github.com/FranLMSP/tetris-sdl
+                        </a>
+                    </li>
                 </ul>
             </div>
 
@@ -118,6 +167,19 @@
                     <li><strong>Object-oriented programming</strong></li>
                     <li><strong>SDL Library</strong></li>
                 </ul>
+                <p>Source code:</p>
+                <ul class="list-disc pl-8">
+                    <li>
+                        <strong>Jails Dream: </strong>
+                        <a
+                            style="color: #039be5"
+                            target="_blank"
+                            href="https://github.com/FranLMSP/jailsdream"
+                        >
+                            https://github.com/FranLMSP/jailsdream
+                        </a>
+                    </li>
+                </ul>
             </div>
 
         </div>
@@ -139,6 +201,19 @@
                     <li><strong>C++</strong></li>
                     <li><strong>Object-oriented programming</strong></li>
                     <li><strong>SDL Library</strong></li>
+                </ul>
+                <p>Source code:</p>
+                <ul class="list-disc pl-8">
+                    <li>
+                        <strong>Cat minigame: </strong>
+                        <a
+                            style="color: #039be5"
+                            target="_blank"
+                            href="https://github.com/FranLMSP/cat-minigame"
+                        >
+                            https://github.com/FranLMSP/cat-minigame
+                        </a>
+                    </li>
                 </ul>
             </div>
 
