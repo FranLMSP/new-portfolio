@@ -20,6 +20,7 @@
                     <li><strong>For the frontend:</strong></li>
                     <ul class="list-disc pl-8">
                         <li>React Native</li>
+                        <li>Redux</li>
                     </ul>
                     <li><strong>Backend:</strong></li>
                     <ul class="list-disc pl-8">

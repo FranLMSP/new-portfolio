@@ -44,7 +44,7 @@
                 Experience:
               </th>
               <td class="p-2 border-t">
-                <b>4 years</b> of experiencie working on-site and remotely at home 💼
+                <b>3 years</b> of experiencie working on-site and remotely at home 💼
               </td>
             </tr>
             <tr>
