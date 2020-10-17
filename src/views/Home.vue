@@ -57,6 +57,14 @@
             </tr>
             <tr>
               <th class="p-2 border-t">
+                Resume:
+              </th>
+              <td class="p-2 border-t">
+                🗒️ <a style="color: #039be5" target="_blank" href="/resume.pdf">resume.pdf</a>
+              </td>
+            </tr>
+            <tr>
+              <th class="p-2 border-t">
                 Contact:
               </th>
               <td class="p-2 border-t">
