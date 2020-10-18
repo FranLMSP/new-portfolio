@@ -46,6 +46,7 @@
             <mkapp :openImage="openImage" v-else-if="portfolioName === 'mkapp'" />
             <mksys :openImage="openImage" v-else-if="portfolioName === 'mksys'" />
             <esteno :openImage="openImage" v-else-if="portfolioName === 'esteno'" />
+            <recipe-box :openImage="openImage" v-else-if="portfolioName === 'recipe-box'" />
         </modal>
 
       </div>
@@ -63,6 +64,7 @@ import Dago from '../components/portfolio/Dago'
 import Mkapp from '../components/portfolio/Mkapp'
 import Mksys from '../components/portfolio/Mksys'
 import Esteno from '../components/portfolio/Esteno'
+import RecipeBox from '../components/portfolio/RecipeBox'
 
 import PortfolioCard from '../components/PortfolioCard'
 import FullscreenImage from '../components/FullscreenImage'
@@ -94,6 +96,14 @@ export default {
             college project.
           `,
           image: '/img/books.jpg'
+        },
+        {
+          title: "Recipe Box",
+          name: "recipe-box",
+          description: `
+            A small SPA project I did for learning Laravel Mix and Vue.js SPA
+          `,
+          image: '/img/portfolio/recipe-box/recipe-box.png'
         },
         {
           title: "Dago's page",
@@ -153,7 +163,8 @@ export default {
     Mksys,
     Esteno,
     PortfolioCard,
-    FullscreenImage
+    FullscreenImage,
+    RecipeBox
   }
 }
 
