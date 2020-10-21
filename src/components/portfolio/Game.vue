@@ -263,19 +263,12 @@ import FullscreenImage from '../FullscreenImage'
 
 export default {
     name: 'Game',
+    props: ['openImage'],
     data() {
         return {
             imageSrc: '',
             imageCaption: '',
             showingImage: false
-        }
-    },
-    methods: {
-        openImage(src, caption) {
-            console.log('Open image')
-            this.imageSrc = src
-            this.imageCaption = caption
-            this.showingImage = true
         }
     },
     components: {

@@ -142,13 +142,11 @@ export default {
   },
   methods: {
     selectPortfolio(title, name) {
-      console.log('test')
       this.modalTitle = title
       this.portfolioName = name
       this.showModal = true
     },
     openImage(src, caption) {
-      console.log('Open image')
       this.imageSrc = src
       this.imageCaption = caption
       this.showingImage = true
