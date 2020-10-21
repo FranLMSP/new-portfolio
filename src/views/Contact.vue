@@ -26,7 +26,7 @@
                 <td>
                     <h4 class="text-lg">
                         <b>LinkedIn: </b>
-                        <a style="color: #039be5" target="_blank" href="https://www.linkedin.com/in/franco-colmenarez-ab190814b/">Franco Colmenarez</a>
+                        <a style="color: #039be5" target="_blank" href="https://www.linkedin.com/in/FrancoACG/">Franco Colmenarez</a>
                     </h4>
                 </td>
             </tr>
