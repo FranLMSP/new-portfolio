@@ -1,6 +1,6 @@
 <template>
 
-    <div class="modal-image" v-show="showing">
+    <div class="modal-image" @click="event => toggle(false, event)" v-show="showing">
 
       <span @click="toggle(false)" class="close-image">&times;</span>
 
@@ -23,7 +23,11 @@ export default {
         }
     },
     methods: {
-        toggle(val) {
+        toggle(val, event = null) {
+            const tag = event?.target?.tagName
+            if(tag && tag.toLowerCase() == 'img') {
+                return
+            }
             this.$emit('toggle', val)
         }
     },
