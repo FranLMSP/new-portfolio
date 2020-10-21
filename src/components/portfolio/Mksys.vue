@@ -45,28 +45,28 @@
 
             <div class="w-full md:w-1/2">
                 <img
-                    @click="openImage('/img/portfolio/mksys/home.png', '')"
+                    @click="openImage(require('@/assets/img/portfolio/mksys/home.png'), '')"
                     class="cursor-pointer m-auto mb-4"
-                    src="/img/portfolio/mksys/home.png"
+                    src="@/assets/img/portfolio/mksys/home.png"
                 />
             </div>
 
         </div>
         <div class="flex flex-wrap">
             <img
-                @click="openImage('/img/portfolio/mksys/orders_index.png', '')"
+                @click="openImage(require('@/assets/img/portfolio/mksys/orders_index.png'), '')"
                 class="cursor-pointer md:w-1/3 h-auto w-full p-2"
-                src="/img/portfolio/mksys/orders_index.png"
+                src="@/assets/img/portfolio/mksys/orders_index.png"
             />
             <img
-                @click="openImage('/img/portfolio/mksys/order.png', '')"
+                @click="openImage(require('@/assets/img/portfolio/mksys/order.png'), '')"
                 class="cursor-pointer md:w-1/3 h-auto w-full p-2"
-                src="/img/portfolio/mksys/order.png"
+                src="@/assets/img/portfolio/mksys/order.png"
             />
             <img
-                @click="openImage('/img/portfolio/mksys/sellings_report.png', '')"
+                @click="openImage(require('@/assets/img/portfolio/mksys/sellings_report.png'), '')"
                 class="cursor-pointer md:w-1/3 h-auto w-full p-2"
-                src="/img/portfolio/mksys/sellings_report.png"
+                src="@/assets/img/portfolio/mksys/sellings_report.png"
             />
         </div>
 

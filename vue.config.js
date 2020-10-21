@@ -1,17 +1,15 @@
 module.exports = {
-  chainWebpack: config => {
-    config.module
-      .rule('file-loader')
-      .test(/\.(gif|png|jpe?g|svg)$/i)
-      .use('file-loader')
+    chainWebpack: config => {
+      const imgRule = config.module.rule('images')
+        imgRule.use('file-loader')
         .loader('image-webpack-loader')
         .tap(options => {
-          options = {
-            ...options,
-            // bypassOnDebug: true, // webpack@1.x
-            // disable: true, // webpack@2.x and newer
+          const ret = options || {}
+          ret.pngquant = {
+            quality: [0.65, 0.90],
+            speed: 4
           }
-          return options
+          return ret;
         })
   }
 }

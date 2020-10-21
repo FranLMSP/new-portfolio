@@ -3,7 +3,7 @@
   <div class="max-w-sm w-full max-w-full lg:flex">
     <div
       class="h-48 lg:h-auto lg:w-64 md:h-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
-      style="background-image: url('/img/prog.jpg'); background-position: center"
+      :style="`background-image: url('${require('@/assets/img/prog.jpg')}'); background-position: center`"
       title="My photo"
     >
     </div>

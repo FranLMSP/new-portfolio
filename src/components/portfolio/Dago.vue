@@ -31,53 +31,53 @@
 
             <div class="w-full md:w-1/3">
                 <img
-                    @click="openImage('/img/portfolio/dago/1.png', '')"
+                    @click="openImage(require('@/assets/img/portfolio/dago/1.png'), '')"
                     class="cursor-pointer w-full mb-4"
-                    src="/img/portfolio/dago/1.png"
+                    src="@/assets/img/portfolio/dago/1.png"
                 />
             </div>
 
         </div>
         <div class="flex flex-wrap">
             <img
-                @click="openImage('/img/portfolio/dago/2.png', '')"
+                @click="openImage(require('@/assets/img/portfolio/dago/2.png'), '')"
                 class="cursor-pointer md:w-1/3 w-full p-2"
-                src="/img/portfolio/dago/2.png"
+                src="@/assets/img/portfolio/dago/2.png"
             />
             <img
-                @click="openImage('/img/portfolio/dago/3.png', '')"
+                @click="openImage(require('@/assets/img/portfolio/dago/3.png'), '')"
                 class="cursor-pointer md:w-1/3 w-full p-2"
-                src="/img/portfolio/dago/3.png"
+                src="@/assets/img/portfolio/dago/3.png"
             />
             <img
-                @click="openImage('/img/portfolio/dago/4.png', '')"
+                @click="openImage(require('@/assets/img/portfolio/dago/4.png'), '')"
                 class="cursor-pointer md:w-1/3 w-full p-2"
-                src="/img/portfolio/dago/4.png"
+                src="@/assets/img/portfolio/dago/4.png"
             />
             <img
-                @click="openImage('/img/portfolio/dago/5.png', '')"
+                @click="openImage(require('@/assets/img/portfolio/dago/5.png'), '')"
                 class="cursor-pointer md:w-1/3 w-full p-2"
-                src="/img/portfolio/dago/5.png"
+                src="@/assets/img/portfolio/dago/5.png"
             />
             <img
-                @click="openImage('/img/portfolio/dago/6.png', '')"
+                @click="openImage(require('@/assets/img/portfolio/dago/6.png'), '')"
                 class="cursor-pointer md:w-1/3 w-full p-2"
-                src="/img/portfolio/dago/6.png"
+                src="@/assets/img/portfolio/dago/6.png"
             />
             <img
-                @click="openImage('/img/portfolio/dago/7.png', '')"
+                @click="openImage(require('@/assets/img/portfolio/dago/7.png'), '')"
                 class="cursor-pointer md:w-1/3 w-full p-2"
-                src="/img/portfolio/dago/7.png"
+                src="@/assets/img/portfolio/dago/7.png"
             />
             <img
-                @click="openImage('/img/portfolio/dago/8.png', '')"
+                @click="openImage(require('@/assets/img/portfolio/dago/8.png'), '')"
                 class="cursor-pointer md:w-1/3 w-full p-2"
-                src="/img/portfolio/dago/8.png"
+                src="@/assets/img/portfolio/dago/8.png"
             />
             <img
-                @click="openImage('/img/portfolio/dago/9.png', '')"
+                @click="openImage(require('@/assets/img/portfolio/dago/9.png'), '')"
                 class="cursor-pointer md:w-1/3 w-full p-2"
-                src="/img/portfolio/dago/9.png"
+                src="@/assets/img/portfolio/dago/9.png"
             />
         </div>
 

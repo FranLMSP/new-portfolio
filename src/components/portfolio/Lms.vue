@@ -41,28 +41,28 @@
 
             <div class="w-full md:w-1/3">
                 <img
-                    @click="openImage('/img/portfolio/lms/1.png', '')"
+                    @click="openImage(require('@/assets/img/portfolio/lms/1.png'), '')"
                     class="cursor-pointer w-full mb-4"
-                    src="/img/portfolio/lms/1.png"
+                    src="@/assets/img/portfolio/lms/1.png"
                 />
                 <img
-                    @click="openImage('/img/portfolio/lms/2.png', '')"
+                    @click="openImage(require('@/assets/img/portfolio/lms/2.png'), '')"
                     class="cursor-pointer w-full"
-                    src="/img/portfolio/lms/2.png"
+                    src="@/assets/img/portfolio/lms/2.png"
                 />
             </div>
 
         </div>
         <div class="flex flex-wrap">
             <img
-                @click="openImage('/img/portfolio/lms/3.png', '')"
+                @click="openImage(require('@/assets/img/portfolio/lms/3.png'), '')"
                 class="cursor-pointer md:w-1/2 w-full p-2"
-                src="/img/portfolio/lms/3.png"
+                src="@/assets/img/portfolio/lms/3.png"
             />
             <img
-                @click="openImage('/img/portfolio/lms/4.png', '')"
+                @click="openImage(require('@/assets/img/portfolio/lms/4.png'), '')"
                 class="cursor-pointer md:w-1/2 w-full p-2"
-                src="/img/portfolio/lms/4.png"
+                src="@/assets/img/portfolio/lms/4.png"
             />
         </div>
 

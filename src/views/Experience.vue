@@ -13,8 +13,8 @@
 
             <div class="flex flex-wrap">
               <div class="w-full lg:w-1/3 mb-6 lg:mb-0">
-                  <img style="width: 100%" src="img/dago.png" />
-                  <img class="m-auto " src="img/aleli.jpg" />
+                  <img style="width: 100%" src="@/assets/img/dago.png" />
+                  <img class="m-auto " src="@/assets/img/aleli.jpg" />
               </div>
 
               <div class="w-full lg:w-2/3">
@@ -83,8 +83,8 @@
               </div>
 
               <div class="w-full lg:w-1/3 mb-6 lg:mb-0">
-                  <img style="width: 100%" src="img/iut.jpg" />
-                  <img style="width: 100%" src="img/platzi.png" />
+                  <img style="width: 100%" src="@/assets/img/iut.jpg" />
+                  <img style="width: 100%" src="@/assets/img/platzi.png" />
               </div>
 
             </div>
@@ -101,7 +101,7 @@
             <div class="flex flex-wrap">
 
               <div class="w-full lg:w-1/3 mb-6 lg:mb-0">
-                  <img style="width: 100%" src="img/acmicpc.jpeg" />
+                  <img style="width: 100%" src="@/assets/img/acmicpc.jpeg" />
               </div>
 
               <div class="w-full lg:w-2/3">

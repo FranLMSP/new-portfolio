@@ -43,9 +43,9 @@
 
             <div class="w-full md:w-1/3">
                 <img
-                    @click="openImage('/img/portfolio/games/2048.png', '2048 game made in Javascript')"
+                    @click="openImage(require('@/assets/img/portfolio/games/2048.png'), '2048 game made in Javascript')"
                     class="cursor-pointer m-auto h-48"
-                    src="/img/portfolio/games/2048.png"
+                    src="@/assets/img/portfolio/games/2048.png"
                 />
             </div>
 
@@ -57,9 +57,9 @@
 
             <div class="w-full md:w-1/3">
                 <img
-                    @click="openImage('/img/pong.png', '2 player pong game made in Javascript')"
+                    @click="openImage(require('@/assets/img/pong.png'), '2 player pong game made in Javascript')"
                     class="cursor-pointer m-auto h-48"
-                    src="/img/pong.png"
+                    src="@/assets/img/pong.png"
                 />
             </div>
 
@@ -136,9 +136,9 @@
 
             <div class="w-full md:w-1/3">
                 <img
-                    @click="openImage('/img/portfolio/games/tetris.png', 'Tetris game made in C++')"
+                    @click="openImage(require('@/assets/img/portfolio/games/tetris.png'), 'Tetris game made in C++')"
                     class="cursor-pointer m-auto h-48"
-                    src="/img/portfolio/games/tetris.png"
+                    src="@/assets/img/portfolio/games/tetris.png"
                 />
             </div>
 
@@ -150,9 +150,9 @@
 
             <div class="w-full md:w-1/3">
                 <img
-                    @click="openImage('/img/portfolio/games/jailsdream.png', 'Platformer game prototype made in C++')"
+                    @click="openImage(require('@/assets/img/portfolio/games/jailsdream.png'), 'Platformer game prototype made in C++')"
                     class="cursor-pointer m-auto h-48"
-                    src="/img/portfolio/games/jailsdream.png"
+                    src="@/assets/img/portfolio/games/jailsdream.png"
                 />
             </div>
 
@@ -219,9 +219,9 @@
 
             <div class="w-full md:w-1/3">
                 <img
-                    @click="openImage('/img/portfolio/games/cat.png', 'Space shooter game prototype made in C++')"
+                    @click="openImage(require('@/assets/img/portfolio/games/cat.png'), 'Space shooter game prototype made in C++')"
                     class="cursor-pointer m-auto h-48"
-                    src="/img/portfolio/games/cat.png"
+                    src="@/assets/img/portfolio/games/cat.png"
                 />
             </div>
 
@@ -233,9 +233,9 @@
 
             <div class="w-full md:w-1/3">
                 <img
-                    @click="openImage('/img/portfolio/games/collage.png', 'Simple games made as a college test')"
+                    @click="openImage(require('@/assets/img/portfolio/games/collage.png'), 'Simple games made as a college test')"
                     class="cursor-pointer m-auto h-48"
-                    src="/img/portfolio/games/collage.png"
+                    src="@/assets/img/portfolio/games/collage.png"
                 />
             </div>
 

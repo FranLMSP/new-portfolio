@@ -43,23 +43,23 @@
 
             <div class="w-full md:w-1/3">
                 <img
-                    @click="openImage('/img/portfolio/recipe-box/arepa.png', '')"
+                    @click="openImage(require('@/assets/img/portfolio/recipe-box/arepa.png'), '')"
                     class="cursor-pointer w-full mb-4"
-                    src="/img/portfolio/recipe-box/arepa.png"
+                    src="@/assets/img/portfolio/recipe-box/arepa.png"
                 />
             </div>
 
         </div>
         <div class="flex flex-wrap">
             <img
-                @click="openImage('/img/portfolio/recipe-box/form.png', '')"
+                @click="openImage(require('@/assets/img/portfolio/recipe-box/form.png'), '')"
                 class="cursor-pointer md:w-1/3 w-full p-2"
-                src="/img/portfolio/recipe-box/form.png"
+                src="@/assets/img/portfolio/recipe-box/form.png"
             />
             <img
-                @click="openImage('/img/portfolio/recipe-box/list.png', '')"
+                @click="openImage(require('@/assets/img/portfolio/recipe-box/list.png'), '')"
                 class="cursor-pointer md:w-1/3 w-full p-2"
-                src="/img/portfolio/recipe-box/list.png"
+                src="@/assets/img/portfolio/recipe-box/list.png"
             />
         </div>
 
