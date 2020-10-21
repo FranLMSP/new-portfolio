@@ -1,6 +1,6 @@
 <template>
 
-    <div class="w-full">
+    <div class="w-full text-left">
         <fullscreen-image
             :src="imageSrc"
             :caption="imageCaption"

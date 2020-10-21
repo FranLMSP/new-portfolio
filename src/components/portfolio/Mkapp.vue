@@ -1,6 +1,6 @@
 <template>
 
-    <div class="w-full">
+    <div class="w-full text-left">
 
         <div class="flex flex-wrap mb-6">
 

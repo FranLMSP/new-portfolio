@@ -1,6 +1,6 @@
 <template>
 
-    <div class="w-full">
+    <div class="w-full text-left">
         <p>
             &emsp;This project is a small project I did for learning SPA with Laravel and Vue.js.
             It consist in a simple form where you can add, watch, list and edit your recipes and

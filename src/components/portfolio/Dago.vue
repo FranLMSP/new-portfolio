@@ -1,6 +1,6 @@
 <template>
 
-    <div class="w-full">
+    <div class="w-full text-left">
         <p>
             &emsp; The Dago's page had many internal issues, so we the developer team remade the
             entire website, both the public website and the administrative interface, where

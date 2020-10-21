@@ -1,6 +1,6 @@
 <template>
 
-    <div class="w-full">
+    <div class="w-full text-left">
 
         <p>
             &emsp; A Management System for the <b>Esteno</b> company.

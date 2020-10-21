@@ -1,6 +1,6 @@
 <template>
 
-    <div class="w-full">
+    <div class="w-full text-left">
         <p>
             &emsp;This project is a management system for the books of a library in a Highschool,
             located at <i>Los Teques, Venezuela</i>. This system has some features like books existence,
