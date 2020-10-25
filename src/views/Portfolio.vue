@@ -47,6 +47,7 @@
             <mksys :openImage="openImage" v-else-if="portfolioName === 'mksys'" />
             <esteno :openImage="openImage" v-else-if="portfolioName === 'esteno'" />
             <recipe-box :openImage="openImage" v-else-if="portfolioName === 'recipe-box'" />
+            <merng :openImage="openImage" v-else-if="portfolioName === 'merng'" />
         </modal>
 
       </div>
@@ -65,6 +66,7 @@ import Mkapp from '../components/portfolio/Mkapp'
 import Mksys from '../components/portfolio/Mksys'
 import Esteno from '../components/portfolio/Esteno'
 import RecipeBox from '../components/portfolio/RecipeBox'
+import Merng from '../components/portfolio/Merng'
 
 import PortfolioCard from '../components/PortfolioCard'
 import FullscreenImage from '../components/FullscreenImage'
@@ -84,7 +86,7 @@ export default {
           title: "Games I've made",
           name: "games",
           description: `
-            Here is a list of games (or minigames) I have made using different languages.
+            Here is a list of games (or minigames) I have made using different languages
           `,
           image: '/img/pong.png'
         },
@@ -109,9 +111,17 @@ export default {
           title: "Dago's page",
           name: "dago",
           description: `
-            A complete rework to the Dago's page (page currently unavailable).
+            A complete rework to the Dago's page (page currently unavailable)
           `,
           image: '/img/dago.png'
+        },
+        {
+          title: "MERNG Stack",
+          name: "merng",
+          description: `
+            A basic "social network" app made with the MERNG stack
+          `,
+          image: '/img/mern.png'
         },
         {
           title: "Mister Kombi App",
@@ -162,7 +172,8 @@ export default {
     Esteno,
     PortfolioCard,
     FullscreenImage,
-    RecipeBox
+    RecipeBox,
+    Merng
   }
 }
 
