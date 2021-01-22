@@ -37,7 +37,9 @@
                   </li>
 
                   <li>
-                    Maintaining a few systems and databases.
+                    Three months <strong>working remotely</strong> at <strong>Amaya Editing</strong>,
+                    <i>Canada</i>, as <strong>Backend and Frontend developer (PHP, Laravel, Vue.js,
+                    API endpoints)</strong>.
                   </li>
                 </ul>
               </div>
