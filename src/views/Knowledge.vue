@@ -6,8 +6,6 @@
         <h2 class="text-gray-900 font-bold text-5xl mb-2">My knowledge 🧠</h2>
         <p>
             &emsp; In this page I have a list of the languages, frameworks, libraries or concepts I have some experience with.
-            This could be a bit dated over the time, because of course, if you don't partice something every day you are going to
-            eventualy get rusty, but nothing that can't be solved with some handwarming 😁
         </p>
         <hr class="m-10">
 
