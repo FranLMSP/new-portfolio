@@ -1,25 +1,9 @@
-#!/usr/bin/env sh
-
-# abort on errors
+# Abort on errors
 set -e
 
-# build
+# Build
 yarn build
 
-# navigate into the build output directory
-cd dist
-
-# if you are deploying to a custom domain
-echo 'www.francoacg.com' > CNAME
-
-git init
-git add -A
-git commit -m 'deploy'
-
-# if you are deploying to https://<USERNAME>.github.io
-# git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
-
-#if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:franlmsp/portfolio.git master:gh-pages
-
-cd -
+# Send the stuff to the server
+# $1 = Your webserver and folder, example: user@host:/var/www
+rsync -vrP --delete-after ./dist/ $1
