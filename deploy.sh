@@ -1,6 +1,11 @@
 # Abort on errors
 set -e
 
+if [ -z "$1" ]; then
+    echo "Usage: ./deploy.sh user@host:/folder"; 
+    exit 1;
+fi
+
 # Build
 yarn build
 
