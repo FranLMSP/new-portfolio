@@ -1,7 +1,8 @@
 # Abort on errors
 set -e
 
-if [ -z "$1" ]; then
+regex='^[a-zA-Z0-9_.-]+[@][a-zA-Z0-9_.-]+:\/([a-zA-Z0-9_.-]+\/?)+$'
+if [[ ! "$1" =~ $regex ]]; then
     echo "Usage: ./deploy.sh user@host:/folder"; 
     exit 1;
 fi
