@@ -8,8 +8,8 @@
           There are some projects I decided to not put in here for some reasons
           (those are either not as important as I think, or very similar to the other ones,
           or private projects, but you can find some of them on my
-          <a target="_blank" href="https://github.com/FranLMSP" style="color:#039be5;">Github</a>
-          or <a target="_blank" href="https://gitlab.com/FranLMSP" style="color:#039be5;" >Gitlab</a>),
+          <a target="_blank" href="https://github.com/FranLMSP">Github</a>
+          or <a target="_blank" href="https://gitlab.com/FranLMSP">Gitlab</a>),
           so here are the most important ones for me. <br>
           Feel free to click on them to see more details!
         </p>

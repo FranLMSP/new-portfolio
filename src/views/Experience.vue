@@ -110,12 +110,12 @@
 
                 <ul class="list-disc pl-8">
                   <li class="mb-4">
-                    <strong><a style="color: #039be5" href="https://icpc.baylor.edu/">ACM-ICPC 2016</a></strong> Coding marathon
+                    <strong><a href="https://icpc.baylor.edu/">ACM-ICPC 2016</a></strong> Coding marathon
                     done at <strong>Universidad Central de Venezuela (UCV)</strong> or <strong>Central College of Venezuela</strong>
                   </li>
 
                   <li class="mb-4">
-                    Challenges at <a style="color: #039be5"  target="_blank" href="https://www.codewars.com/users/FranLMSP"><strong>Codewars</strong></a>
+                    Challenges at <a target="_blank" href="https://www.codewars.com/users/FranLMSP"><strong>Codewars</strong></a>
                   </li>
 
                   <li class="mb-4">
@@ -124,7 +124,7 @@
                   </li>
 
                   <li class="mb-4">
-                    Projects at the college (CRUD's, games, etc)
+                    Projects at the college and <a target="_blank" href="https://github.com/FranLMSP">personal projects</a> (CRUD's, games, etc)
                   </li>
 
                   <li class="mb-4">

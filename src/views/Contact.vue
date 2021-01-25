@@ -15,7 +15,7 @@
                 <td>
                     <h4 class="text-lg">
                         <b>Email: </b>
-                        <a style="color: #039be5" href="mailto:info@francoacg.com">info@francoacg.com</a>
+                        <a href="mailto:info@francoacg.com">info@francoacg.com</a>
                     </h4>
                 </td>
             </tr>
@@ -26,7 +26,7 @@
                 <td>
                     <h4 class="text-lg">
                         <b>LinkedIn: </b>
-                        <a style="color: #039be5" target="_blank" href="https://www.linkedin.com/in/FrancoACG/">Franco Colmenarez</a>
+                        <a target="_blank" href="https://www.linkedin.com/in/FrancoACG/">Franco Colmenarez</a>
                     </h4>
                 </td>
             </tr>
@@ -42,7 +42,7 @@
                 <td>
                     <h4 class="text-lg">
                         <b>Github: </b>
-                        <a style="color: #039be5" target="_blank" href="https://github.com/FranLMSP">FranLMSP</a>
+                        <a target="_blank" href="https://github.com/FranLMSP">FranLMSP</a>
                     </h4>
                 </td>
             </tr>
@@ -53,7 +53,7 @@
                 <td>
                     <h4 class="text-lg">
                         <b>Gitlab: </b>
-                        <a style="color: #039be5" target="_blank" href="https://gitlab.com/FranLMSP">FranLMSP</a>
+                        <a target="_blank" href="https://gitlab.com/FranLMSP">FranLMSP</a>
                     </h4>
                 </td>
             </tr>
@@ -64,7 +64,7 @@
                 <td>
                     <h4 class="text-lg">
                         <b>Codewars: </b>
-                        <a style="color: #039be5" target="_blank" href="https://www.codewars.com/users/FranLMSP">FranLMSP</a>
+                        <a target="_blank" href="https://www.codewars.com/users/FranLMSP">FranLMSP</a>
                     </h4>
                 </td>
             </tr>

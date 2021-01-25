@@ -18,7 +18,7 @@
                 <h3 class="font-bold text-2xl">2048 Game in Javascript</h3>
                 <p class="pl-4 mb-4">
                     A 2048 game game made with Javascript.<br>
-                    You can <a style="color: #039be5" target="_blank" href="https://franlmsp.github.io/2048-game/">play 2048</a> here!
+                    You can <a target="_blank" href="https://franlmsp.github.io/2048-game/">play 2048</a> here!
                 </p>
 
                 <p>Tools used:</p>
@@ -31,7 +31,6 @@
                     <li>
                         <strong>2048: </strong>
                         <a
-                            style="color: #039be5"
                             target="_blank"
                             href="https://github.com/FranLMSP/2048-game"
                         >
@@ -67,8 +66,8 @@
                 <h3 class="font-bold text-2xl">Pong and Snake in Javascript</h3>
                 <p class="pl-4 mb-4">
                     A Pong Game and a very basic Snake game made with Javascript.<br>
-                    You can <a style="color: #039be5" target="_blank" href="https://franlmsp.github.io/PongScript/">play Pong</a>
-                    and <a style="color: #039be5" target="_blank" href="https://franlmsp.github.io/SnakeScript/">play Snake</a> here!
+                    You can <a target="_blank" href="https://franlmsp.github.io/PongScript/">play Pong</a>
+                    and <a target="_blank" href="https://franlmsp.github.io/SnakeScript/">play Snake</a> here!
                     Pong also works on mobile devices!
                 </p>
                 <p>Tools used:</p>
@@ -81,7 +80,6 @@
                     <li>
                         <strong>Pong: </strong>
                         <a
-                            style="color: #039be5"
                             target="_blank"
                             href="https://github.com/FranLMSP/PongScript"
                         >
@@ -91,7 +89,6 @@
                     <li>
                         <strong>Snake: </strong>
                         <a
-                            style="color: #039be5"
                             target="_blank"
                             href="https://github.com/FranLMSP/SnakeScript"
                         >
@@ -124,7 +121,6 @@
                     <li>
                         <strong>Tetris: </strong>
                         <a
-                            style="color: #039be5"
                             target="_blank"
                             href="https://github.com/FranLMSP/tetris-sdl"
                         >
@@ -172,7 +168,6 @@
                     <li>
                         <strong>Jails Dream: </strong>
                         <a
-                            style="color: #039be5"
                             target="_blank"
                             href="https://github.com/FranLMSP/jailsdream"
                         >
@@ -207,7 +202,6 @@
                     <li>
                         <strong>Cat minigame: </strong>
                         <a
-                            style="color: #039be5"
                             target="_blank"
                             href="https://github.com/FranLMSP/cat-minigame"
                         >

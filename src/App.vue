@@ -60,6 +60,11 @@ export default {
 </script>
 
 <style>
+
+.container a {
+    color: #039be5 !important;
+}
+
 .hide {
     display: none;
 }

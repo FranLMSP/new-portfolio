@@ -34,7 +34,7 @@
                 <p>Source code:</p>
                 <ul class="list-disc pl-8">
                     <li>
-                      <a style="color: #039be5" href="https://github.com/FranLMSP/recipe-box">
+                      <a href="https://github.com/FranLMSP/recipe-box">
                         https://github.com/FranLMSP/recipe-box
                       </a>
                     </li>

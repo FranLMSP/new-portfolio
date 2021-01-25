@@ -32,13 +32,13 @@
                     <ul class="list-disc pl-8">
                         <li>
                           Frontend:
-                          <a style="color: #039be5" href="https://github.com/FranLMSP/merng-web">
+                          <a href="https://github.com/FranLMSP/merng-web">
                             https://github.com/FranLMSP/merng-web
                           </a>
                         </li>
                         <li>
                           Backend:
-                          <a style="color: #039be5" href="https://github.com/FranLMSP/merng-server">
+                          <a href="https://github.com/FranLMSP/merng-server">
                             https://github.com/FranLMSP/merng-server
                           </a>
                         </li>

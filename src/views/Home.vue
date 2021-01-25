@@ -20,7 +20,7 @@
                 Age:
               </th>
               <td class="p-2 border-t">
-                22 years old
+                23 years old
               </td>
             </tr>
             <tr>
@@ -60,7 +60,7 @@
                 Resume:
               </th>
               <td class="p-2 border-t">
-                🗒️ <a style="color: #039be5" target="_blank" href="/resume.pdf">resume.pdf</a>
+                🗒️ <a target="_blank" href="/resume.pdf">resume.pdf</a>
               </td>
             </tr>
             <tr>
@@ -68,7 +68,7 @@
                 Contact:
               </th>
               <td class="p-2 border-t">
-                📧Email: <a style="color: #039be5" href="mailto:info@francoacg.com">info@francoacg.com</a>
+                📧Email: <a href="mailto:info@francoacg.com">info@francoacg.com</a>
               </td>
             </tr>
           </tbody>
