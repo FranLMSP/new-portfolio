@@ -37,9 +37,11 @@
                   </li>
 
                   <li>
-                    Three months <strong>working remotely</strong> at <strong>Amaya Editing</strong>,
-                    <i>Canada</i>, as <strong>Backend and Frontend developer (PHP, Laravel, Vue.js,
-                    API endpoints)</strong>.
+                    Three months <strong>working remotely</strong> as contractor at
+                    <strong>Amaya Editing</strong>, <i>Canada</i>, as <strong>Backend and
+                    Frontend developer (PHP, Laravel, Vue.js, API endpoints)</strong> doing
+                    integrations with Shopify API and Astro Loyalty, creating Artisan
+                    commands and doing <strong>Unit Testing</strong>.
                   </li>
                 </ul>
               </div>
