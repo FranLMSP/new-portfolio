@@ -7,9 +7,16 @@ if [[ ! "$1" =~ $regex ]]; then
     exit 1;
 fi
 
+# Validate if there's a port set or not
+port=22
+if [ -n "$2" ]; then
+    port=$2;
+fi
+
 # Build
 yarn build
 
 # Send the stuff to the server
 # $1 = Your webserver and folder, example: user@host:/var/www
-rsync -vrP --delete-after ./dist/ $1
+rsync -e "ssh -p $port" -vrP --delete-after ./dist/ $1
+
