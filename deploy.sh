@@ -3,7 +3,7 @@ set -e
 
 regex='^[a-zA-Z0-9_.-]+[@][a-zA-Z0-9_.-]+:\/([a-zA-Z0-9_.-]+\/?)+$'
 if [[ ! "$1" =~ $regex ]]; then
-    echo "Usage: ./deploy.sh user@host:/folder"; 
+    echo "Usage: ./deploy.sh user@host:/folder port"; 
     exit 1;
 fi
 
