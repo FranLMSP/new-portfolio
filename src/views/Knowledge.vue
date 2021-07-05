@@ -27,7 +27,7 @@
                             <li>MySQL or Mariadb</li>
                             <li>PostgreSQL</li>
                         </ul>
-                        <li><b>Non-relational databases (NoSQL)</b> (very low experience with this one)</li>
+                        <li><b>Non-relational databases (NoSQL)</b> (basic knowledge)</li>
                         <ul class="list-disc pl-8">
                             <li>MongoDB</li>
                             <li>Firebase</li>
@@ -38,6 +38,7 @@
                             <li>Laravel</li>
                             <ul class="list-disc pl-8">
                                 <li>Test Driven Development</li>
+                                <li>Artisan commands</li>
                             </ul>
                         </ul>
                         <li><b>Node.js</b></li>
@@ -63,7 +64,6 @@
                         <ul class="list-disc pl-8">
                             <li>EcmaScript6</li>
                             <li>Vue.js</li>
-                            <li>React.js (+ React Native)</li>
                             <li>HighCharts</li>
                             <li>jQuery</li>
                             <li>Canvas</li>
@@ -73,6 +73,11 @@
                             <li>Bootstrap</li>
                             <li>Materialize</li>
                             <li>Tailwind CSS</li>
+                        </ul>
+                        <li><b>Mobile</b></li>
+                        <ul class="list-disc pl-8">
+                            <li>Flutter</li>
+                            <li>React.js (+ React Native)</li>
                         </ul>
                     </ul>
                 </div>
@@ -101,17 +106,16 @@
                         </ul>
                         <li><b>Python</b></li>
                         <ul class="list-disc pl-8">
-                            <li>Basic web-scrapping</li>
-                            <li>Very basic Numpy, Pandas and Matplotlib</li>
+                            <li>Web-scrapping</li>
+                            <li>Numpy, Pandas and Matplotlib (basic)</li>
                             <li>Jupyter Notebooks</li>
-                            <li>Pygame</li>
                         </ul>
+                        <li><b>Rust</b></li>
                         <li><b>Regular expresions</b></li>
                         <li><b>Object-oriented programming</b></li>
                         <li><b>Recursion</b></li>
                         <li><b>Pointers</b></li>
                         <li><b>Model-Controller-View</b></li>
-                        <li><b>Pascal and Basic</b></li>
                     </ul>
                 </div>
             </div>
@@ -126,7 +130,8 @@
 
                     <div>
                         <ul class="list-disc">
-                            <li><b>Git commands and Git-flow</b></li>
+                            <li><b>Git commands</b></li>
+                            <li><b>Git-flow and Gitlab-flow</b></li>
                             <li><b>Gitlab</b></li>
                             <li><b>Github</b></li>
                             <li><b>Bitbucket</b></li>
@@ -144,12 +149,10 @@
 
                     <div>
                         <ul class="list-disc">
-                            <li><b>Low level programming</b></li>
-                            <li><b>ASM</b></li>
+                            <li><b>Computer science / Low level programming / ASM</b></li>
                             <li><b>Reverse Engineering</b></li>
                             <li><b>Security research</b></li>
                             <li><b>Machine Learning</b></li>
-                            <li><b>Computer Science</b></li>
                             <li><b>Improve my english</b></li>
                         </ul>
                     </div>

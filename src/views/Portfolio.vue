@@ -91,6 +91,14 @@ export default {
           image: '/img/pong.png'
         },
         {
+          title: "Flutter projects / mini-projects",
+          name: "flutter",
+          description: `
+            A Flutter project I made for the Aleli company and some other mini-projects I made for learning
+          `,
+          image: '/img/flutter.jpg'
+        },
+        {
           title: "Library Management System",
           name: "lms",
           description: `
