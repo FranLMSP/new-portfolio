@@ -93,6 +93,22 @@ export default {
           image: '/img/flutter.jpg'
         },
         {
+          title: "Mister Kombi Management System",
+          name: "mksys",
+          description: `
+            Management System for the Mister Kombi restaurant
+          `,
+          image: '/img/mrkombi.jpg'
+        },
+        {
+          title: "Mister Kombi App",
+          name: "mkapp",
+          description: `
+            Android application made in React Native for the Mister Kombi restaurant
+          `,
+          image: '/img/rn.png'
+        },
+        {
           title: "Library Management System",
           name: "lms",
           description: `
@@ -124,22 +140,6 @@ export default {
             A basic "social network" app made with the MERNG stack
           `,
           image: '/img/mern.png'
-        },
-        {
-          title: "Mister Kombi App",
-          name: "mkapp",
-          description: `
-            Android application made in React Native for the Mister Kombi restaurant
-          `,
-          image: '/img/rn.png'
-        },
-        {
-          title: "Mister Kombi Management System",
-          name: "mksys",
-          description: `
-            Management System for the Mister Kombi restaurant
-          `,
-          image: '/img/mrkombi.jpg'
         },
         {
           title: "Esteno Reports",
