@@ -40,14 +40,7 @@
             :showModal="showModal"
             @modal-toggle="val => showModal = val"
         >
-            <game :openImage="openImage" v-if="portfolioName === 'games'" />
-            <lms :openImage="openImage" v-else-if="portfolioName === 'lms'" />
-            <dago :openImage="openImage" v-else-if="portfolioName === 'dago'" />
-            <mkapp :openImage="openImage" v-else-if="portfolioName === 'mkapp'" />
-            <mksys :openImage="openImage" v-else-if="portfolioName === 'mksys'" />
-            <esteno :openImage="openImage" v-else-if="portfolioName === 'esteno'" />
-            <recipe-box :openImage="openImage" v-else-if="portfolioName === 'recipe-box'" />
-            <merng :openImage="openImage" v-else-if="portfolioName === 'merng'" />
+            <component :openImage="openImage" :is="portfolioName"></component>
         </modal>
 
       </div>
@@ -59,7 +52,8 @@
 <script>
 
 import Modal from '../components/Modal'
-import Game from '../components/portfolio/Game'
+import Games from '../components/portfolio/Games'
+import Flutter from '../components/portfolio/Flutter'
 import Lms from '../components/portfolio/Lms'
 import Dago from '../components/portfolio/Dago'
 import Mkapp from '../components/portfolio/Mkapp'
@@ -80,7 +74,7 @@ export default {
       showingImage: false,
       showModal: false,
       portfolioName: 'none',
-      modalTitle: "Test title",
+      modalTitle: "",
       portfolioList: [
         {
           title: "Games I've made",
@@ -91,10 +85,10 @@ export default {
           image: '/img/pong.png'
         },
         {
-          title: "Flutter projects / mini-projects",
+          title: "Mobile applications in Flutter",
           name: "flutter",
           description: `
-            A Flutter project I made for the Aleli company and some other mini-projects I made for learning
+            Flutter project I made for the Aleli company and some other mini-projects I made for learning
           `,
           image: '/img/flutter.jpg'
         },
@@ -172,7 +166,8 @@ export default {
   },
   components: {
     Modal,
-    Game,
+    Flutter,
+    Games,
     Lms,
     Dago,
     Mkapp,

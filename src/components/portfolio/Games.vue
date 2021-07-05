@@ -256,7 +256,7 @@
 import FullscreenImage from '../FullscreenImage'
 
 export default {
-    name: 'Game',
+    name: 'Games',
     props: ['openImage'],
     data() {
         return {
